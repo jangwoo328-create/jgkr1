@@ -39,7 +39,11 @@
       }
       stage.appendChild(t); return t;
     });
-    var SWEEP = SPACING * N / 2, DUR = N * STEP, HIDE = Math.max(0, 0.5 - VIS / (2 * SWEEP));
+    var SWEEP = SPACING * N / 2, DUR = N * STEP;
+    // 데스크탑에서 data-wide-vis가 있으면 양옆 사진이 늘 함께 보이도록 보이는 각도를 넓힘
+    var wideVis = parseFloat(host.getAttribute('data-wide-vis')) || 0, mqWide = null;
+    try { mqWide = window.matchMedia('(min-width:1000px)'); } catch (e) {}
+    var hideFor = function () { var v = (wideVis && mqWide && mqWide.matches) ? wideVis : VIS; return Math.max(0, 0.5 - v / (2 * SWEEP)); };
     var st = { ph: N, hover: false, drag: false, lastX: 0, lastT: 0, vel: 0, tween: null, seen: true, front: -1 };
     var cap = host.nextElementSibling && host.nextElementSibling.classList.contains('spin-cap') ? host.nextElementSibling : null;
     if (!cap) { cap = document.createElement('p'); cap.className = 'spin-cap'; cap.setAttribute('aria-hidden', 'true'); host.parentNode.insertBefore(cap, host.nextSibling); }
@@ -66,12 +70,14 @@
       new IntersectionObserver(function (en) { st.seen = en[0].isIntersecting; }, { rootMargin: '100px' }).observe(host);
     }
     var draw = function () {
-      var best = 1, bi = 0;
+      var best = 1, bi = 0, HIDE = hideFor();
       tiles.forEach(function (el, i) {
         var p = ((((st.ph - i * STEP) / DUR) % 1) + 1) % 1;
         var a = SWEEP - 2 * SWEEP * p;
         el.style.transform = 'translateZ(-' + R + ') rotateY(' + a.toFixed(3) + 'deg) translateZ(' + R + ')';
-        el.style.visibility = (p > HIDE && p < 1 - HIDE) ? 'visible' : 'hidden';
+        var on = p > HIDE && p < 1 - HIDE;
+        el.style.visibility = on ? 'visible' : 'hidden';
+
         var off = Math.abs(p - 0.5); if (off < best) { best = off; bi = i; }
       });
       if (bi !== st.front) {

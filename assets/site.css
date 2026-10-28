@@ -573,3 +573,11 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
 .prose .letter p{margin:0;line-height:1.9}
 .prose .sign{margin-top:2.2em;padding-top:16px;border-top:1px solid var(--line);text-align:right;font-size:calc(var(--fs) - 1px);color:var(--muted)}
 .prose .sign b{margin-left:6px;font-size:calc(var(--fs) + 2px);color:var(--ink)}
+/* 데스크탑: 한의원 둘러보기 회전 사진을 접수대 사진(가로 500) 크기로 */
+@media (min-width:1000px){
+  /* 가운데 사진은 가로 500(접수대 사진 크기), 양옆 사진까지 한꺼번에 3장이 보이도록 회전 영역은 넓게 */
+  #about .gallery .spin{width:100%;aspect-ratio:auto!important;height:384px;-webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 7%,#000 13%,#000 87%,rgba(0,0,0,.6) 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.6) 7%,#000 13%,#000 87%,rgba(0,0,0,.6) 93%,transparent 100%)}
+  #about .gallery .spin-stage{left:50%;right:auto;width:580px;margin-left:-290px;container-type:inline-size;-webkit-mask-image:none;mask-image:none}
+  /* 조각마다 옆으로 완전히 누울 때 저절로 사라지게 (끝에서 튕기지 않도록) */
+  #about .gallery .spin-sl{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+}
