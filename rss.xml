@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>정관고려한의원</title>
+    <link>https://jangwoo328-create.github.io/jgkr1/</link>
+    <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
+    <language>ko</language>
+    <lastBuildDate>Wed, 28 Oct 2026 16:39:00 +0900</lastBuildDate>
+    <image>
+      <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
+      <title>정관고려한의원</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/</link>
+    </image>
+    <item>
+      <title>[에세이02] 내 몸 안의 의사를 믿는다는 것</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/essay-2.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/essay-2.html</guid>
+      <category>에세이</category>
+      <pubDate>Wed, 28 Oct 2026 16:39:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/essay-2-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;우리는 왜 통증을 없애는 데만 익숙해졌을까요? 통증은 몸이 보내는 편지입니다. 한방재활의학과 전문의 박장우 원장의 에세이.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/essay-2-hero.jpg" length="56427" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/essay-2-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>삐끗했는데 왜 이렇게 오래 가죠? 근육·인대·힘줄 손상의 회복 이야기</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-1.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-1.html</guid>
+      <category>칼럼</category>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-1-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;삐끗한 뒤 회복 기간은 근육 1~4주, 인대 2~8주, 힘줄 6주~3개월. 다친 조직에 따라 다른 이유를 정관고려한의원이 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-1-hero.jpg" length="52582" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-1-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
