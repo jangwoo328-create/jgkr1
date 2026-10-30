@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:39:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:07:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>[에세이03] 몸은 쉬라고 하는데, 삶은 멈출 수 없을 때</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/essay-3.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/essay-3.html</guid>
+      <category>에세이</category>
+      <pubDate>Fri, 30 Oct 2026 01:07:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/essay-3-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;일을 쉴 수 없는 분들의 근육·힘줄 통증, 과사용 증후군 이야기. 한방재활의학과 전문의 박장우 원장의 에세이.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/essay-3-hero.jpg" length="69770" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/essay-3-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>[에세이02] 내 몸 안의 의사를 믿는다는 것</title>
       <link>https://jangwoo328-create.github.io/jgkr1/essay-2.html</link>

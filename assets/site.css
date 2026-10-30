@@ -581,3 +581,8 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
   /* 조각마다 옆으로 완전히 누울 때 저절로 사라지게 (끝에서 튕기지 않도록) */
   #about .gallery .spin-sl{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 }
+.prose .lead-quote{margin-top:1.6em;font-size:calc(var(--fs) + 3px);font-weight:700;color:var(--ink);line-height:1.6}
+.prose ul.dl{list-style:none;padding:14px 18px;margin-top:1em;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.prose ul.dl li{padding-left:0}
+.prose ul.dl li+li{margin-top:.7em;padding-top:.7em;border-top:1px dashed var(--line)}
+.prose ul.dl b{display:block;color:var(--gold-deep)}
