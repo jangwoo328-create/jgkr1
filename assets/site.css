@@ -586,3 +586,15 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
 .prose ul.dl li{padding-left:0}
 .prose ul.dl li+li{margin-top:.7em;padding-top:.7em;border-top:1px dashed var(--line)}
 .prose ul.dl b{display:block;color:var(--gold-deep)}
+/* 칼럼02 */
+.prose h3.factor{display:flex;align-items:center;gap:10px;margin-top:2em;font-size:calc(var(--fs) + 2px);font-weight:500;color:var(--ink);line-height:1.5}
+.prose h3.factor .n{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--gold-soft);font-size:14px;font-weight:700}
+.prose ul.roles{list-style:none;padding:0;margin-top:1.1em;display:grid;gap:12px}
+.prose ul.roles>li{padding:14px 16px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.prose ul.roles>li+li{margin-top:0}
+.prose ul.roles .who{display:inline-block;margin-right:8px;padding:1px 10px;border-radius:999px;background:var(--ink);color:var(--gold-soft);font-size:13px;vertical-align:2px}
+.prose ul.roles .sub{margin-top:.6em;font-size:calc(var(--fs) - 1px);color:var(--muted)}
+.prose ul.roles .checks{margin-top:.5em}
+.prose .ps{margin-top:1.8em;padding:14px 16px;border-radius:12px;border:1px dashed #d6c39a;color:var(--text)}
+.column .prose figure img{max-width:600px;margin-inline:auto;display:block}
+.nw{white-space:nowrap}
