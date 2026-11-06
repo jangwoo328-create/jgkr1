@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Nov 2026 23:55:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 22:24:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>어깨가 아프면 다 오십견일까요? (오십견의 특징과 운동법)</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-3.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-3.html</guid>
+      <category>칼럼</category>
+      <pubDate>Wed, 04 Nov 2026 22:24:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-3-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;어깨가 아프다고 다 오십견은 아닙니다. 오십견의 특징과 혼동하기 쉬운 질환, 경과와 치료, 집에서 하는 운동법까지 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-3-hero.jpg" length="69169" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-3-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>"침 한방에 낫게 해주소~" 근육통 회복 속도를 결정하는 네가지 요인</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-2.html</link>

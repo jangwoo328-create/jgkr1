@@ -598,3 +598,29 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
 .prose .ps{margin-top:1.8em;padding:14px 16px;border-radius:12px;border:1px dashed #d6c39a;color:var(--text)}
 .column .prose figure img{max-width:600px;margin-inline:auto;display:block}
 .nw{white-space:nowrap}
+/* 칼럼03 */
+.tbl.tbl-sm{min-width:0}
+.prose .key{margin-top:1.4em;padding:16px 18px;border-radius:12px;background:#f7efdc;border-left:4px solid var(--gold);color:var(--ink)}
+.prose .note{font-size:calc(var(--fs) - 1px);color:var(--muted)}
+.prose h3.sub-h{margin-top:1.8em;font-size:calc(var(--fs) + 1px);color:var(--ink)}
+.prose figure.tall img{max-width:480px}
+.prose .refs{margin-top:2em;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:13.5px;line-height:1.7}
+.prose .refs summary{cursor:pointer;font-weight:700;color:var(--ink);display:flex;justify-content:space-between;align-items:center;list-style:none}
+.prose .refs summary::-webkit-details-marker{display:none}
+.prose .refs summary .ic{width:18px;height:18px;transition:transform .2s}
+.prose .refs[open] summary .ic{transform:rotate(180deg)}
+.prose .refs ol,.prose .refs ul{margin-top:.8em;padding-left:1.2em}
+.prose .refs li{margin-top:.5em;color:var(--text);overflow-wrap:anywhere}
+.prose .refs .refs-h{margin-top:1em;font-weight:700;color:var(--ink)}
+@media (max-width:640px){
+  .tbl-wrap:has(.tbl-sm){border:1px solid var(--line);background:var(--paper)}
+  .tbl.tbl-sm{display:table}
+  .tbl.tbl-sm thead{display:table-header-group}
+  .tbl.tbl-sm tbody{display:table-row-group}
+  .tbl.tbl-sm tr{display:table-row;border:0;border-radius:0;margin:0;background:none}
+  .tbl.tbl-sm th,.tbl.tbl-sm td{display:table-cell;padding:11px 12px;border-bottom:1px solid var(--line)!important}
+  .tbl.tbl-sm tbody th{background:none;white-space:nowrap;width:1%}
+  .tbl.tbl-sm td::before{content:none}
+  .tbl.tbl-sm tbody tr:last-child>*{border-bottom:0!important}
+}
+.prose .refs summary .ic{fill:none;stroke:currentColor;stroke-width:2;flex:none}
