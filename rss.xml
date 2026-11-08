@@ -6,12 +6,21 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Nov 2026 22:24:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 16:33:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>자다가 종아리에 쥐가 나요 (야간 하지 경련의 원인과 대처법)</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-4.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-4.html</guid>
+      <pubDate>Sun, 08 Nov 2026 16:33:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-4-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;밤에 자다가 종아리에 쥐가 나는 야간 하지 경련. 원인과 증상, 쥐가 났을 때 대처법 4가지, 예방 스트레칭과 한방 치료를 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-4-hero.jpg" length="70493" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-4-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>어깨가 아프면 다 오십견일까요? (오십견의 특징과 운동법)</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-3.html</link>
