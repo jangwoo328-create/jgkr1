@@ -624,3 +624,13 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
   .tbl.tbl-sm tbody tr:last-child>*{border-bottom:0!important}
 }
 .prose .refs summary .ic{fill:none;stroke:currentColor;stroke-width:2;flex:none}
+/* 진료시간: 요일·시각 크게 */
+.hrs-row.main{align-items:center;padding-block:20px}
+.hrs-row.main dt{font-size:22px;font-weight:900;letter-spacing:-.02em;line-height:1.2}
+.hrs-row.main dt small{display:block;margin:3px 0 0;font-size:12.5px;letter-spacing:0}
+.hrs dd.big{display:flex;align-items:baseline;justify-content:flex-end;gap:0;font-weight:900;letter-spacing:-.02em}
+.hrs dd.big b{font-size:28px;font-weight:900;line-height:1;margin-left:4px}
+.hrs dd.big .ap{font-size:12.5px;font-weight:700;color:var(--ink)}
+.hrs dd.big .tl{font-size:15px;font-weight:700;margin:0 7px;color:var(--muted)}
+@media (max-width:360px){.hrs-row.main dt{font-size:19px}.hrs dd.big b{font-size:23px}.hrs dd.big .ap{font-size:11.5px}.hrs dd.big .tl{margin:0 4px}}
+@media (min-width:760px){.hrs-row.main{padding-block:24px}.hrs-row.main dt{font-size:28px}.hrs-row.main dt small{font-size:13.5px}.hrs dd.big b{font-size:38px;margin-left:5px}.hrs dd.big .ap{font-size:15px}.hrs dd.big .tl{font-size:18px;margin:0 10px}}
