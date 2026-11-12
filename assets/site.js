@@ -205,3 +205,13 @@
     }
   }
 })();
+/* 진료 분야 카드 → 방송 출연분 목록 */
+(function(){
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('[data-sheet]');
+    if(b){var d=document.getElementById(b.getAttribute('data-sheet'));if(d&&d.showModal){d.showModal();}return;}
+    var x=e.target.closest('.sheet-x');
+    if(x){x.closest('dialog').close();return;}
+    if(e.target.tagName==='DIALOG'&&e.target.classList.contains('sheet'))e.target.close();
+  });
+})();

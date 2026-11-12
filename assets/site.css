@@ -635,3 +635,29 @@ body.has-dock{padding-bottom:calc(68px + env(safe-area-inset-bottom,0px))}
 @media (max-width:360px){.hrs-row.main dt{font-size:19px}.hrs dd.big b{font-size:23px}.hrs dd.big .ap{font-size:11.5px}.hrs dd.big .tl{margin:0 4px}}
 @media (min-width:760px){.hrs-row.main{padding-block:24px}.hrs-row.main dt{font-size:28px}.hrs-row.main dt small{font-size:13.5px}.hrs dd.big b{font-size:38px;margin-left:5px}.hrs dd.big .ap{font-size:15px}.hrs dd.big .tl{font-size:18px;margin:0 10px}}
 .prose figure.video video{display:block;width:100%;height:auto;border-radius:12px;background:#fff;border:1px solid var(--line)}
+/* 진료 분야 카드 → 방송 출연분 목록 */
+button.area{font:inherit;color:inherit;text-align:left;width:100%;cursor:pointer;-webkit-appearance:none;appearance:none}
+button.area:hover{border-color:#d6c39a;background:#efe9dd}
+button.area:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+dialog.sheet{position:fixed;inset:auto 0 0 0;margin:0 auto;width:100%;max-width:440px;max-height:none;padding:0;border:0;background:transparent;color:var(--ink)}
+dialog.sheet::backdrop{background:rgba(20,16,10,.55)}
+.sheet-in{background:var(--paper,#fbf8f2);border-radius:20px 20px 0 0;padding:22px 20px calc(20px + env(safe-area-inset-bottom));box-shadow:0 -10px 40px rgba(0,0,0,.18)}
+.sheet-hd{position:relative;padding-right:44px;margin-bottom:14px}
+.sheet-k{font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--gold-deep)}
+.sheet-hd h3{margin-top:4px;font-size:20px;font-weight:800;color:var(--ink)}
+.sheet-x{position:absolute;top:-4px;right:-6px;width:40px;height:40px;display:grid;place-items:center;border:0;border-radius:50%;background:transparent;color:var(--ink);cursor:pointer}
+.sheet-x .ic{width:22px;height:22px}
+.sheet-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.sheet-list a{display:flex;align-items:center;gap:12px;padding:14px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-decoration:none;color:var(--ink);transition:border-color .15s,background .15s}
+.sheet-list a:hover{border-color:#d6c39a;background:#efe9dd}
+.sheet-list .n{flex:none;min-width:52px;padding:4px 0;border-radius:8px;background:var(--ink);color:#f6f0e6;font-size:13px;font-weight:700;text-align:center}
+.sheet-list li:last-child .n{background:var(--gold-deep)}
+.sheet-list .t{flex:1;font-size:15px;font-weight:600}
+.sheet-list .ic{flex:none;width:16px;height:16px;color:var(--muted)}
+.sheet-note{margin-top:12px;font-size:12px;color:var(--muted);text-align:center}
+dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
+@keyframes sheetUp{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
+@media (min-width:760px){dialog.sheet{inset:0;margin:auto;height:fit-content}.sheet-in{border-radius:20px;padding:26px 24px 22px}}
+@media (prefers-reduced-motion:reduce){dialog.sheet[open] .sheet-in{animation:none}}
+.sheet-list .t{line-height:1.35}
+.sheet-list .t small{display:block;margin-bottom:2px;font-size:11.5px;font-weight:600;color:var(--muted)}
