@@ -661,3 +661,5 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 @media (prefers-reduced-motion:reduce){dialog.sheet[open] .sheet-in{animation:none}}
 .sheet-list .t{line-height:1.35}
 .sheet-list .t small{display:block;margin-bottom:2px;font-size:11.5px;font-weight:600;color:var(--muted)}
+.sheet-list .t{min-width:0;overflow-wrap:anywhere}
+.sheet-list .n.num{min-width:34px;height:34px;padding:0;display:grid;place-items:center;border-radius:50%;background:var(--ink)!important;font-size:14px}
