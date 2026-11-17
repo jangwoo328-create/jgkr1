@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 23:05:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:50:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>침 치료 원리, 과학적으로 쉽게 설명드립니다 (관문조절설, 엔도르핀, 전침)</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-6.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-6.html</guid>
+      <category>칼럼</category>
+      <pubDate>Tue, 17 Nov 2026 15:50:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-6-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;"원장님, 침은 어떻게 해서 낫는 거예요?" 관문조절설, 몸속 진통물질(엔도르핀), 침 자리의 변화, 뇌·신경 조절까지 침 치료의 원리를 쉽게 풀었습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-6-hero.jpg" length="68671" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-6-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>자고 일어났더니 목이 안 돌아가요 — 목 담결림(낙침) 원인, 경과, 침치료, 주의사항</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-5.html</link>
