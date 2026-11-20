@@ -671,3 +671,14 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 .tx details p:has(+ .tx-more){padding-bottom:10px}
 .tx .tx-more{margin:0 18px 18px 52px;font-size:13.5px;padding:8px 12px 8px 14px}
 .tx .tx-more{border-radius:12px}
+/* 칼럼07 */
+.prose .key.alert{background:#fbeae6;border-left-color:#c2410c}
+.prose .qbox{margin-top:1.6em;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.prose .qbox p{margin-top:.7em}
+.prose .qbox p:first-child{margin-top:0}
+.prose .qbox .qbox-h{font-weight:800;color:var(--ink)}
+.prose .tbl.sum th[scope=row]{white-space:normal!important;width:auto!important;font-weight:700;color:var(--ink);font-size:14px}
+.prose .tbl.sum td{font-size:14px}
+.prose .tbl.sum tr.hot>*{background:#fbeae6}
+.prose .tbl.sum tr.hot td b{color:#b42318}
+@media (max-width:640px){.prose .tbl.sum th,.prose .tbl.sum td{padding:10px 8px}}

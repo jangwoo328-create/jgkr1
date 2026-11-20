@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Nov 2026 15:50:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 11:38:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>얼굴이 떨리고 저릴 때, 걱정해야 할까요? (눈꺼풀 떨림, 안면경련, 구안와사, 뇌졸중 신호)</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-7.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-7.html</guid>
+      <category>칼럼</category>
+      <pubDate>Thu, 19 Nov 2026 11:38:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-7-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;눈꺼풀 떨림부터 반측성 안면경련, 구안와사, 삼차신경통, 대상포진, 뇌졸중 신호까지. 걱정하지 않아도 될 떨림과 바로 119를 불러야 할 신호를 구분해 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-7-hero.jpg" length="67788" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-7-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>침 치료 원리, 과학적으로 쉽게 설명드립니다 (관문조절설, 엔도르핀, 전침)</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-6.html</link>
