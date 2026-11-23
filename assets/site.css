@@ -682,3 +682,7 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 .prose .tbl.sum tr.hot>*{background:#fbeae6}
 .prose .tbl.sum tr.hot td b{color:#b42318}
 @media (max-width:640px){.prose .tbl.sum th,.prose .tbl.sum td{padding:10px 8px}}
+/* 칼럼08 */
+.prose .qbox.qwarn{background:#fbf3e4;border-color:#e6cf9f}
+.prose .qbox .checks{margin-top:.8em}
+.prose ul.checks.avoid .ic{color:#b42318}
