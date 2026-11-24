@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Nov 2026 23:22:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:14:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>허리디스크, 꼭 수술해야 하나요? 치료 기간과 좋아지는 신호</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-9.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-9.html</guid>
+      <category>칼럼</category>
+      <pubDate>Mon, 23 Nov 2026 18:14:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-9-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;"디스크가 터졌대요." 허리디스크는 대부분 수술 없이 좋아집니다. 수술이 필요한 경우, 디스크의 자연 흡수, 양·한방 치료와 침치료 연구, 치료 기간과 좋아지는 신호까지 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-9-hero.jpg" length="76074" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-9-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>어깨 힘줄(회전근개) 부분 파열, 수술해야 하나요? 치료방법과 회복기간</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-8.html</link>

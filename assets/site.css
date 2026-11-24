@@ -686,3 +686,13 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 .prose .qbox.qwarn{background:#fbf3e4;border-color:#e6cf9f}
 .prose .qbox .checks{margin-top:.8em}
 .prose ul.checks.avoid .ic{color:#b42318}
+/* 칼럼09 */
+.prose .qbox.qalert{background:#fbeae6;border-color:#efc6bb}
+.prose .qbox.qalert .qbox-h{color:#9f2a12}
+.prose .qbox + .qbox{margin-top:12px}
+.prose h3.sig-good{color:#2f7a62}
+.prose h3.sig-bad{color:#b42318}
+.prose .tbl.sum th[scope=col]{white-space:nowrap}
+.sheet-list .n{padding:5px 8px;min-width:58px;white-space:nowrap;font-size:12.5px}
+.sheet-list .n:not(.num){width:84px;min-width:0;flex:none;padding:5px 0;text-align:center}
+.sheet-list .n:not(.num){width:74px;font-size:12px}
