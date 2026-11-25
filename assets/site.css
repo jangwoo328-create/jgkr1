@@ -699,3 +699,9 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 /* 칼럼10 */
 .prose .qbox.qgreen{background:#eef3e6;border-color:#cbd8b4}
 .prose .qbox.qgreen .qbox-h{color:#4d6326}
+/* 로고: 검색엔진이 가로로 긴 로고를 대표 사진으로 고르지 않도록 배경 이미지로 표시 */
+.logo-bg{--h:21px;display:block;flex:none;height:var(--h);width:calc(var(--h) * 6.795);background:url(../images/2e68b0b4.png) 0 50%/contain no-repeat}
+.v2 .brand .logo-bg{--h:24px}
+@media (min-width:1000px){.v2 .brand .logo-bg{--h:28px}}
+@media (min-width:1000px) and (max-width:1180px){.v2 .brand .logo-bg{--h:25px}}
+.ft .logo-bg{--h:20px;margin-bottom:14px}
