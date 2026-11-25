@@ -696,3 +696,6 @@ dialog.sheet[open] .sheet-in{animation:sheetUp .22s ease-out}
 .sheet-list .n{padding:5px 8px;min-width:58px;white-space:nowrap;font-size:12.5px}
 .sheet-list .n:not(.num){width:84px;min-width:0;flex:none;padding:5px 0;text-align:center}
 .sheet-list .n:not(.num){width:74px;font-size:12px}
+/* 칼럼10 */
+.prose .qbox.qgreen{background:#eef3e6;border-color:#cbd8b4}
+.prose .qbox.qgreen .qbox-h{color:#4d6326}

@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 18:14:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 01:13:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>요통을 예방하는 습관 3가지 — 오래 앉지 않기, 바른 자세, 체중 관리</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-10.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-10.html</guid>
+      <category>칼럼</category>
+      <pubDate>Wed, 25 Nov 2026 01:13:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-10-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;"허리 안 아프려면 뭘 조심해야 하나요?" 오래 앉지 않기(505법칙), 바른 앉기·물건 들기 자세, 체중 관리, 그리고 운동은 안 아플 때. 요통을 예방하는 습관을 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-10-hero.jpg" length="51226" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-10-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>허리디스크, 꼭 수술해야 하나요? 치료 기간과 좋아지는 신호</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-9.html</link>
