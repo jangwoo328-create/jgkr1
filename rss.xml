@@ -6,12 +6,22 @@
     <atom:link href="https://jangwoo328-create.github.io/jgkr1/rss.xml" rel="self" type="application/rss+xml"/>
     <description>정관고려한의원. 한의학박사·한방재활의학과 전문의 진료. 교통사고 후유증, 허리·목디스크, 근육통·관절통, 담결림, 보약. 예약 없이 방문 가능.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 01:13:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 15:51:00 +0900</lastBuildDate>
     <image>
       <url>https://jangwoo328-create.github.io/jgkr1/images/db6368d7.jpg</url>
       <title>정관고려한의원</title>
       <link>https://jangwoo328-create.github.io/jgkr1/</link>
     </image>
+    <item>
+      <title>허리 삐끗했는데, 왜 다음 날 더 아플까요? — 허리 '뜨끔' 뒤 처음 며칠은 이렇게 흘러갑니다</title>
+      <link>https://jangwoo328-create.github.io/jgkr1/column-11.html</link>
+      <guid isPermaLink="true">https://jangwoo328-create.github.io/jgkr1/column-11.html</guid>
+      <category>칼럼</category>
+      <pubDate>Thu, 26 Nov 2026 15:51:00 +0900</pubDate>
+      <description>&lt;p&gt;&lt;img src="https://jangwoo328-create.github.io/jgkr1/images/column-11-hero.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;허리를 삐끗한 다음 날 더 아픈 이유는 염증 반응 때문입니다. 같은 '뜨끔'이라도 경과가 갈리는 이유, 침 치료 경과 세 가지 길, 처음 며칠 집에서 지내는 법을 정리했습니다.&lt;/p&gt;</description>
+      <enclosure url="https://jangwoo328-create.github.io/jgkr1/images/column-11-hero.jpg" length="45277" type="image/jpeg"/>
+      <media:content url="https://jangwoo328-create.github.io/jgkr1/images/column-11-hero.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>요통을 예방하는 습관 3가지 — 오래 앉지 않기, 바른 자세, 체중 관리</title>
       <link>https://jangwoo328-create.github.io/jgkr1/column-10.html</link>
